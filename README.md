@@ -1,4 +1,4 @@
-### Clara
+# Clara
 =========================
 
 A Simple Package for getting home worth using the Zillow API and displaying the Property Image by Using Google Map.
@@ -27,12 +27,17 @@ use GodwinOjebiyi\Clara;
 $clara = new Clara($zillow_id, $google_maps_api_key);
 ```
 
-# Set Address for clara to work on
+### Set Address for clara to work on
 ```php
 $clara->set_address("address");
 ```
 
-# Get Home Worth
+### Get Address clara is working on
+```php
+$clara->get_address();
+```
+
+### Get Home Worth
 ```php
 if($clara->get_home_worth()){
 	echo $clara->show_estimate_info('home_url');
@@ -44,7 +49,7 @@ if($clara->get_home_worth()){
 }
 ```
 
-# Get Property Image
+### Get Property Image
 ```php
 echo $clara->get_property_image($width, $height);
 ```

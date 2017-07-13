@@ -13,7 +13,7 @@ Google Map Javascript API KEY
 * Unit-Testing with PHPUnit
 * Examples
 * Easy to use to any framework or even a plain php file
-*Search and Deep Search Result API from Zillow
+* Search and Deep Search Result API from Zillow
 
 ## Instalation
 ```bash
@@ -55,5 +55,5 @@ echo $clara->get_property_image($width, $height);
 ```
 
 ## Coming Soon
-*Estimated Property Value Growth Chart
-*Ability to include bootstrap classes in Clara.
+* Estimated Property Value Growth Chart
+* Ability to include bootstrap classes in Clara.

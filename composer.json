@@ -1,0 +1,21 @@
+{
+    "name": "godwin-ojebiyi/clara",
+    "description": "A Simple Package for getting home worth using the Zillow API and displaying the Property Image by Using Google Map.",
+    "keywords": ["Zillow", "Google Map", "Real Estate", "Home Worth", "Zestimate and Estimate"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Godwin Ojebiyi",
+            "email": "godwinojebiyi@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"autoload": {
+        "psr-4": {
+            "GodwinOjebiyi\\": "src"
+        }
+    }
+}
